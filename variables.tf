@@ -13,3 +13,10 @@ variable "instance_name" {
   default     = "Provisioned by Terraform"
 }
 
+variable "role_arn" {
+  description = "The ARN for the role to be assumed on AWS"
+}
+
+variable "external_id" {
+  description = "The external ID for the role to be assumed on AWS"
+}
